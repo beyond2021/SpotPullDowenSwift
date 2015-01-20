@@ -13,6 +13,10 @@
 		2284B26D1A0909AF00D185F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2284B26C1A0909AF00D185F4 /* Images.xcassets */; };
 		2284B2701A0909AF00D185F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2284B26E1A0909AF00D185F4 /* LaunchScreen.xib */; };
 		2284B27C1A0909AF00D185F4 /* SpotPullDowenSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284B27B1A0909AF00D185F4 /* SpotPullDowenSwiftTests.swift */; };
+		2284B2861A0909E500D185F4 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284B2851A0909E500D185F4 /* DotView.swift */; };
+		2284B2881A090C2100D185F4 /* AEColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284B2871A090C2100D185F4 /* AEColor.swift */; };
+		22C291821A0D998C006633DF /* OverlayScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C291811A0D998C006633DF /* OverlayScrollView.swift */; };
+		22F8BAC91A0E7B9B0021FFCE /* TouchDelayGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8BAC81A0E7B9B0021FFCE /* TouchDelayGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		2284B2751A0909AF00D185F4 /* SpotPullDowenSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotPullDowenSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2284B27A1A0909AF00D185F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2284B27B1A0909AF00D185F4 /* SpotPullDowenSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPullDowenSwiftTests.swift; sourceTree = "<group>"; };
+		2284B2851A0909E500D185F4 /* DotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		2284B2871A090C2100D185F4 /* AEColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEColor.swift; sourceTree = "<group>"; };
+		22C291811A0D998C006633DF /* OverlayScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayScrollView.swift; sourceTree = "<group>"; };
+		22F8BAC81A0E7B9B0021FFCE /* TouchDelayGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDelayGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 		2284B2571A0909AF00D185F4 = {
 			isa = PBXGroup;
 			children = (
+				22F8BAC81A0E7B9B0021FFCE /* TouchDelayGestureRecognizer.swift */,
+				22C291811A0D998C006633DF /* OverlayScrollView.swift */,
+				2284B2851A0909E500D185F4 /* DotView.swift */,
+				2284B2871A090C2100D185F4 /* AEColor.swift */,
 				2284B2621A0909AF00D185F4 /* SpotPullDowenSwift */,
 				2284B2781A0909AF00D185F4 /* SpotPullDowenSwiftTests */,
 				2284B2611A0909AF00D185F4 /* Products */,
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2284B2681A0909AF00D185F4 /* ViewController.swift in Sources */,
+				22F8BAC91A0E7B9B0021FFCE /* TouchDelayGestureRecognizer.swift in Sources */,
+				2284B2881A090C2100D185F4 /* AEColor.swift in Sources */,
 				2284B2661A0909AF00D185F4 /* AppDelegate.swift in Sources */,
+				22C291821A0D998C006633DF /* OverlayScrollView.swift in Sources */,
+				2284B2861A0909E500D185F4 /* DotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpotPullDowenSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpotPullDowenSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +423,7 @@
 				2284B2811A0909AF00D185F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2284B2821A0909AF00D185F4 /* Build configuration list for PBXNativeTarget "SpotPullDowenSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +432,7 @@
 				2284B2841A0909AF00D185F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
